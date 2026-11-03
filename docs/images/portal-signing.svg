@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="100%">
+  <defs>
+    <filter id="pShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1000" height="480" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1.5" filter="url(#pShadow)" />
+
+  <!-- Top Portal Bar -->
+  <path d="M 0,14 Q 0,0 14,0 L 986,0 Q 1000,0 1000,14 L 1000,50 L 0,50 Z" fill="#1e293b" />
+  <text x="30" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">Client Portal • Proposal Review &amp; Execution</text>
+  <rect x="740" y="14" width="230" height="24" rx="12" fill="#065f46" />
+  <text x="855" y="30" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#a7f3d0">🔒 256-Bit SSL Secured Link</text>
+
+  <!-- Left: Proposal Milestone Summary -->
+  <g transform="translate(40, 75)">
+    <rect width="420" height="365" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    
+    <text x="24" y="34" font-family="sans-serif" font-size="18" font-weight="900" fill="#ffffff">Proposal #PRP-2026-0001</text>
+    <text x="24" y="54" font-family="sans-serif" font-size="12" fill="#94a3b8">Prepared for Sarah Connor (Acme Global Tech)</text>
+
+    <!-- Scope Box -->
+    <rect x="24" y="75" width="372" height="120" rx="8" fill="#0f172a" />
+    <text x="38" y="98" font-family="sans-serif" font-size="11" font-weight="700" fill="#38bdf8">DELIVERABLES &amp; SCOPE OF WORK</text>
+    <text x="38" y="120" font-family="sans-serif" font-size="11" fill="#cbd5e1">• Cloud Microservice Decomposition &amp; DB Sharding</text>
+    <text x="38" y="140" font-family="sans-serif" font-size="11" fill="#cbd5e1">• Filament 5 Multi-Tenant Administrative Dashboard</text>
+    <text x="38" y="160" font-family="sans-serif" font-size="11" fill="#cbd5e1">• REST API v1 Specification &amp; Biometric Integrations</text>
+    <text x="38" y="180" font-family="sans-serif" font-size="11" fill="#cbd5e1">• Complete QA Automation &amp; CI/CD Deployment</text>
+
+    <!-- Financial Milestone Table -->
+    <text x="24" y="225" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">PAYMENT MILESTONES</text>
+    
+    <text x="24" y="250" font-family="sans-serif" font-size="12" fill="#ffffff">1. Initial Deposit (50%)</text>
+    <text x="350" y="250" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">$2,200.00</text>
+    
+    <text x="24" y="275" font-family="sans-serif" font-size="12" fill="#ffffff">2. Final Delivery &amp; Handover (50%)</text>
+    <text x="350" y="275" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">$2,200.00</text>
+    
+    <line x1="24" y1="295" x2="396" y2="295" stroke="#475569" stroke-width="1" />
+    <text x="24" y="325" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">Grand Total Payable:</text>
+    <text x="315" y="325" font-family="sans-serif" font-size="18" font-weight="900" fill="#34d399">$4,400.00</text>
+  </g>
+
+  <!-- Right: Legal Electronic Signature Pad -->
+  <g transform="translate(490, 75)">
+    <rect width="470" height="365" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+    
+    <text x="24" y="34" font-family="sans-serif" font-size="16" font-weight="800" fill="#ffffff">Legally-Binding Acceptance</text>
+    <text x="24" y="52" font-family="sans-serif" font-size="11" fill="#94a3b8">US ESIGN Act &amp; EU eIDAS (SES) Compliant</text>
+
+    <!-- Canvas Mockup -->
+    <rect x="24" y="70" width="422" height="130" rx="8" fill="#ffffff" />
+    <text x="40" y="95" font-family="sans-serif" font-size="10" font-weight="700" fill="#94a3b8">DRAW OR TYPE SIGNATURE BELOW</text>
+    
+    <!-- Signature Stroke Path -->
+    <path d="M 50,150 Q 80,100 120,130 T 170,160 T 220,120 T 280,145 T 340,110 T 380,155" fill="none" stroke="#1e3a8a" stroke-width="3" stroke-linecap="round" />
+    <text x="50" y="185" font-family="cursive" font-size="16" font-style="italic" fill="#1e3a8a">Sarah Connor</text>
+
+    <!-- Legal Consent Box -->
+    <g transform="translate(24, 215)">
+      <rect width="18" height="18" rx="4" fill="#10b981" />
+      <text x="9" y="14" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="900" fill="#ffffff">✓</text>
+      <text x="28" y="14" font-family="sans-serif" font-size="11" font-weight="600" fill="#ffffff">I accept this proposal and agree to be legally bound by its terms.</text>
+    </g>
+
+    <!-- Sign Button -->
+    <rect x="24" y="245" width="422" height="42" rx="8" fill="#10b981" />
+    <text x="235" y="271" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">✓ Sign &amp; Confirm Proposal</text>
+
+    <!-- Audit Stamp Badge -->
+    <rect x="24" y="300" width="422" height="50" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text x="36" y="318" font-family="sans-serif" font-size="9" font-weight="700" fill="#2dd4bf">🔒 TAMPER-EVIDENT AUDIT TRAIL RECORDED:</text>
+    <text x="36" y="335" font-family="monospace" font-size="8.5" fill="#94a3b8">SHA-256: e3b0c44298fc1c149afbf4c8... | IP: 198.51.100.24 | 2026-11-04 UTC</text>
+  </g>
+</svg>

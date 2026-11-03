@@ -84,3 +84,4 @@ class ModuleActivationTest extends TestCase
         $this->assertStringContainsString('active modules depend on it', $result['message']);
     }
 }
+

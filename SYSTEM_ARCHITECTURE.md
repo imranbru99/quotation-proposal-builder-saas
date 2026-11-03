@@ -179,3 +179,4 @@ Powered by `imrandevbd/laravel-ai-hub`:
 - Multi-provider abstraction: OpenAI, Anthropic Claude, Google Gemini, DeepSeek, Groq, Mistral, Ollama.
 - Tenant-level quota checks: Tenants cannot exceed their plan's monthly AI token/call limits.
 - Safety & Fallback: AI produces editable drafts requiring human review before dispatch. If AI service times out, core manual document editing remains fully operational.
+

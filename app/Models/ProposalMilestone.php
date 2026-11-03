@@ -23,3 +23,4 @@ class ProposalMilestone extends Model
         return $this->belongsTo(Proposal::class);
     }
 }
+

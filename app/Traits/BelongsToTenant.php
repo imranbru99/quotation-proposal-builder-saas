@@ -28,3 +28,4 @@ trait BelongsToTenant
         return $this->belongsTo(Tenant::class);
     }
 }
+

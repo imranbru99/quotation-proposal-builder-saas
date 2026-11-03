@@ -24,3 +24,4 @@ class TenantModule extends Model
         return $this->belongsTo(Tenant::class);
     }
 }
+

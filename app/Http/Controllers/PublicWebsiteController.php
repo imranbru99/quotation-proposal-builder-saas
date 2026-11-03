@@ -115,3 +115,4 @@ class PublicWebsiteController extends Controller
         return redirect('/app');
     }
 }
+

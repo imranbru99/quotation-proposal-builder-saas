@@ -23,3 +23,4 @@ class TenantMiddleware
         return $next($request);
     }
 }
+

@@ -117,3 +117,4 @@ EOT;
         return "Dear {$clientName},\n\nI hope this email finds you well.\n\nWe wanted to follow up regarding {$documentType} #{$documentNumber} in the amount of {$currency} " . number_format($amount, 2) . ".\n\nPlease let us know if you have any questions or require any adjustments. You can easily review and accept the document directly through your customer portal link.\n\nThank you for your partnership.\n\nWarm regards,\nThe Management Team";
     }
 }
+

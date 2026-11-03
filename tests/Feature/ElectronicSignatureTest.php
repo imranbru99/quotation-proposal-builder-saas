@@ -65,3 +65,4 @@ class ElectronicSignatureTest extends TestCase
         $this->assertNotNull($proposal->signed_at);
     }
 }
+

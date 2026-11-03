@@ -23,3 +23,4 @@ class InvoiceController extends Controller
         return response()->json($invoice);
     }
 }
+

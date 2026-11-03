@@ -104,3 +104,4 @@ class QuotationWorkflowTest extends TestCase
         $this->assertEquals(1, Invoice::count());
     }
 }
+

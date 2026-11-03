@@ -16,3 +16,4 @@ class Warehouse extends Model
         'is_primary' => 'boolean',
     ];
 }
+

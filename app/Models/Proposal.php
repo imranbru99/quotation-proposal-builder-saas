@@ -88,3 +88,4 @@ class Proposal extends Model
         return $this->status === 'signed' || !empty($this->signed_at);
     }
 }
+

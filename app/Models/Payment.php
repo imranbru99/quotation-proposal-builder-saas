@@ -56,3 +56,4 @@ class Payment extends Model
         return $this->belongsTo(User::class, 'recorded_by_id');
     }
 }
+

@@ -45,3 +45,4 @@ class RecentQuotationsWidget extends BaseWidget
             ->paginated(false);
     }
 }
+

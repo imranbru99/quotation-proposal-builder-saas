@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="100%" height="100%">
+  <defs>
+    <filter id="mShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1000" height="420" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1.5" filter="url(#mShadow)" />
+
+  <!-- Header -->
+  <g transform="translate(40, 30)">
+    <text x="0" y="20" font-family="sans-serif" font-size="12" font-weight="800" fill="#a855f7" letter-spacing="1">PLUGGABLE BUSINESS ARCHITECTURE</text>
+    <text x="0" y="44" font-family="sans-serif" font-size="20" font-weight="900" fill="#ffffff">Module Marketplace &amp; Ecosystem Store</text>
+    
+    <!-- Zero Data Loss Guarantee Banner -->
+    <rect x="520" y="8" width="400" height="38" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1" />
+    <circle cx="540" cy="27" r="10" fill="#22c55e" />
+    <text x="540" y="31" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="900" fill="#052e16">✓</text>
+    <text x="560" y="24" font-family="sans-serif" font-size="11" font-weight="800" fill="#ffffff">Zero Data Loss Guarantee</text>
+    <text x="560" y="37" font-family="sans-serif" font-size="9" fill="#bbf7d0">Toggling modules OFF never drops or deletes existing data</text>
+  </g>
+
+  <!-- Grid of Module Cards -->
+  <g transform="translate(40, 95)">
+    <!-- Card 1: CRM & Pipeline (Active) -->
+    <g transform="translate(0, 0)">
+      <rect width="285" height="140" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+      <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">🎯 CRM &amp; Pipeline</text>
+      <text x="20" y="52" font-family="sans-serif" font-size="11" fill="#94a3b8">Lead tracking, opportunity stages, deal probability and value forecasting.</text>
+      
+      <!-- Toggle ON -->
+      <g transform="translate(20, 95)">
+        <rect width="48" height="24" rx="12" fill="#2563eb" />
+        <circle cx="36" cy="12" r="9" fill="#ffffff" />
+        <text x="58" y="16" font-family="sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Active</text>
+      </g>
+    </g>
+
+    <!-- Card 2: Biometric Attendance (Active) -->
+    <g transform="translate(315, 0)">
+      <rect width="285" height="140" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+      <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">🏢 Attendance Machine Hub</text>
+      <text x="20" y="52" font-family="sans-serif" font-size="11" fill="#94a3b8">Hardware biometric terminals, live punch hooks, and shift tracking.</text>
+      
+      <!-- Toggle ON -->
+      <g transform="translate(20, 95)">
+        <rect width="48" height="24" rx="12" fill="#10b981" />
+        <circle cx="36" cy="12" r="9" fill="#ffffff" />
+        <text x="58" y="16" font-family="sans-serif" font-size="11" font-weight="700" fill="#34d399">Active</text>
+      </g>
+    </g>
+
+    <!-- Card 3: AI Assistant (Active) -->
+    <g transform="translate(630, 0)">
+      <rect width="285" height="140" rx="10" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+      <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">✨ AI Business Assistant</text>
+      <text x="20" y="52" font-family="sans-serif" font-size="11" fill="#94a3b8">Multi-provider auto-drafting for scopes, emails, terms &amp; descriptions.</text>
+      
+      <!-- Toggle ON -->
+      <g transform="translate(20, 95)">
+        <rect width="48" height="24" rx="12" fill="#a855f7" />
+        <circle cx="36" cy="12" r="9" fill="#ffffff" />
+        <text x="58" y="16" font-family="sans-serif" font-size="11" font-weight="700" fill="#c084fc">Active</text>
+      </g>
+    </g>
+
+    <!-- Card 4: Inventory & Multi-Warehouse (Inactive) -->
+    <g transform="translate(0, 160)">
+      <rect width="285" height="140" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">📦 Multi-Warehouse Inventory</text>
+      <text x="20" y="52" font-family="sans-serif" font-size="11" fill="#94a3b8">Stock reorder levels, location bin tracking, and SKU batching.</text>
+      
+      <!-- Toggle OFF -->
+      <g transform="translate(20, 95)">
+        <rect width="48" height="24" rx="12" fill="#475569" />
+        <circle cx="12" cy="12" r="9" fill="#ffffff" />
+        <text x="58" y="16" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">Inactive (Data Safe)</text>
+      </g>
+    </g>
+
+    <!-- Card 5: Purchase Orders (Inactive) -->
+    <g transform="translate(315, 160)">
+      <rect width="285" height="140" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">🛒 Suppliers &amp; Purchase Orders</text>
+      <text x="20" y="52" font-family="sans-serif" font-size="11" fill="#94a3b8">Vendor management, purchase order approvals, and cost ledger.</text>
+      
+      <!-- Toggle OFF -->
+      <g transform="translate(20, 95)">
+        <rect width="48" height="24" rx="12" fill="#475569" />
+        <circle cx="12" cy="12" r="9" fill="#ffffff" />
+        <text x="58" y="16" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">Inactive (Data Safe)</text>
+      </g>
+    </g>
+
+    <!-- Card 6: Project Tasks & Milestones (Active) -->
+    <g transform="translate(630, 160)">
+      <rect width="285" height="140" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5" />
+      <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">🏗️ Projects &amp; Milestones</text>
+      <text x="20" y="52" font-family="sans-serif" font-size="11" fill="#94a3b8">Kanban task boards, deliverable deadlines, and billing milestones.</text>
+      
+      <!-- Toggle ON -->
+      <g transform="translate(20, 95)">
+        <rect width="48" height="24" rx="12" fill="#2563eb" />
+        <circle cx="36" cy="12" r="9" fill="#ffffff" />
+        <text x="58" y="16" font-family="sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Active</text>
+      </g>
+    </g>
+  </g>
+</svg>

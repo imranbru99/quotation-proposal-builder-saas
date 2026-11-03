@@ -12,3 +12,4 @@ if (!function_exists('is_module_active')) {
         return app(ModuleManager::class)->isModuleActive($moduleId, $tenant);
     }
 }
+

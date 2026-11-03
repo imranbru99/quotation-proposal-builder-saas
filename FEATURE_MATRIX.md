@@ -64,3 +64,4 @@
 - `inventory` depends on `products`
 - `purchases` depends on `suppliers`, `products`
 - Deactivation of any module safely retains all historical records in the database.
+

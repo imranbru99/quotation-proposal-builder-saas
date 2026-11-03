@@ -85,3 +85,4 @@ class TenantIsolationTest extends TestCase
         $this->assertCount(1, $customersForB);
     }
 }
+

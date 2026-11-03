@@ -100,3 +100,4 @@ class ElectronicSignatureService
         return $signature;
     }
 }
+

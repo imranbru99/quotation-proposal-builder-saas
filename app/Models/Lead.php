@@ -29,3 +29,4 @@ class Lead extends Model
         return $this->hasMany(Opportunity::class);
     }
 }
+

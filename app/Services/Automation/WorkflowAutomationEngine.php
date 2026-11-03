@@ -98,3 +98,4 @@ class WorkflowAutomationEngine
         return "Automatically converted Quotation #{$payload->quotation_number} into Invoice #{$invoice->invoice_number}.";
     }
 }
+

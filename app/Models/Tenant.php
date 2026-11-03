@@ -66,3 +66,4 @@ class Tenant extends Model
         return $this->hasMany(TenantModule::class);
     }
 }
+

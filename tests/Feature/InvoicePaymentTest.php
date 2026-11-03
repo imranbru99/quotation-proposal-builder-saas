@@ -76,3 +76,4 @@ class InvoicePaymentTest extends TestCase
         $this->assertNotNull($invoice->paid_at);
     }
 }
+

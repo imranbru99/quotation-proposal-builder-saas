@@ -226,3 +226,4 @@ class CustomerPortalController extends Controller
         return $this->pdfService->downloadReceipt($payment);
     }
 }
+

@@ -48,3 +48,4 @@ class Customer extends Model
         return $this->company_name ? "{$this->name} ({$this->company_name})" : $this->name;
     }
 }
+

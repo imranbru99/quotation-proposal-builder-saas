@@ -22,3 +22,4 @@ class AutomationLog extends Model
         return $this->belongsTo(AutomationRule::class, 'rule_id');
     }
 }
+

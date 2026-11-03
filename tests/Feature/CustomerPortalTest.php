@@ -109,3 +109,4 @@ class CustomerPortalTest extends TestCase
         $this->assertTrue($proposal->isSigned());
     }
 }
+

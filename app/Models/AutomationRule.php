@@ -24,3 +24,4 @@ class AutomationRule extends Model
         return $this->hasMany(AutomationLog::class, 'rule_id');
     }
 }
+

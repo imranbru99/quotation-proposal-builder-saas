@@ -18,3 +18,4 @@ class Designation extends Model
         return $this->hasMany(Employee::class);
     }
 }
+
