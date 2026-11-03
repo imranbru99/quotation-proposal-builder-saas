@@ -1,0 +1,63 @@
+<?php
+
+namespace App\Filament\Resources\Expenses;
+
+use App\Filament\Resources\Expenses\Pages\CreateExpense;
+use App\Filament\Resources\Expenses\Pages\EditExpense;
+use App\Filament\Resources\Expenses\Pages\ListExpenses;
+use App\Filament\Resources\Expenses\Schemas\ExpenseForm;
+use App\Filament\Resources\Expenses\Tables\ExpensesTable;
+use App\Models\Expense;
+use Filament\Resources\Resource;
+use Filament\Schemas\Schema;
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
+
+class ExpenseResource extends Resource
+{
+    protected static ?string $model = Expense::class;
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-receipt-percent';
+
+    protected static string | \UnitEnum | null $navigationGroup = 'Billing & Payments';
+
+    protected static ?int $navigationSort = 3;
+
+    public static function canAccess(): bool
+    {
+        return is_module_active('expenses');
+    }
+
+    public static function shouldRegisterNavigation(): bool
+    {
+        return is_module_active('expenses');
+    }
+
+    public static function form(Schema $schema): Schema
+    {
+        return ExpenseForm::configure($schema);
+    }
+
+    public static function table(Table $table): Table
+    {
+        return ExpensesTable::configure($table);
+    }
+
+    public static function getPages(): array
+    {
+        return [
+            'index' => ListExpenses::route('/'),
+            'create' => CreateExpense::route('/create'),
+            'edit' => EditExpense::route('/{record}/edit'),
+        ];
+    }
+
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->withoutGlobalScopes([
+                SoftDeletingScope::class,
+            ]);
+    }
+}
